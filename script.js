@@ -8,7 +8,8 @@ function fibonacci(num) {
 		third=first+second;
 		first=second;
 		second=third;
-	}	
+	}
+	return third;
 }
 
 module.exports = fibonacci;
